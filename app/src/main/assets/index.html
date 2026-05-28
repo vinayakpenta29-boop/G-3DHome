@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky color="#ECECEC"></a-sky>
+      
+      <a-box id="door" position="0 1.5 -3" width="1.5" height="3" depth="0.1" color="#4CC3D9"
+             animation="property: rotation; to: 0 90 0; startEvents: click; dur: 1500"></a-box>
+      
+      <a-entity position="0 1.6 0">
+        <a-camera look-controls>
+          <a-cursor color="black"></a-cursor>
+        </a-camera>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
