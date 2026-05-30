@@ -35,5 +35,8 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
     
+    // It's also highly recommended to include the Material library for standard UI elements
+    implementation 'com.google.android.material:material:1.11.0'
 }
